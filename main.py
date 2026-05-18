@@ -8,7 +8,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiohttp import web
 
 # --- CONFIG ---
-TOKEN = "8728187843:AAEHVOaKegbtKv4uVhA1m_x_Zc8tfMWzYts"
+TOKEN = "8680235934:AAE29xhE2uZ_CDIzPSh4YUgEIVTmlhQpO-w"
 SUPER_ADMINS = [8624430245, 7893084473]
 DB_PATH = "howhelper_stats.db"
 
@@ -55,12 +55,15 @@ def get_user_profile(user_id):
 
 # --- RP ACTIONS ---
 RP_ACTIONS = {
+    "брак": "{target}, вас хочет взять в любовный с#кс {user}",
+    "выебать": "{target} Вас выебал {user}",
+    "трахнуть": "🔞 {user} трахнул(а) {target}",
     "обнять": "🫂 {user} обнял(а) {target}",
-    "поцеловать": "💋 {user} поцеловал(а) {target}",
-    "ударить": "👊 {user} отвесил(а) леща {target}",
-    "кусь": "🦷 {user} сделал(а) кусь {target}",
-    "дать пять": "✋ {user} дал(а) пять {target}",
-    "погладить": "👋 {user} погладил(а) по голове {target}"
+    "чмок": "💋 {user} чмокнул(а) {target}",
+    "изнасиловать": "{user} изнасиловал {target}",
+    "побить": "👊 {user} побил(а) {target}",
+    "дать по голове": "👊 {user} дал(а) по голове {target}",
+    "отпиздить": "👊 {user} отпиздил(а) {target}"
 }
 
 # --- RENDER SERVER ---

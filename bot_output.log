@@ -1,0 +1,5 @@
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @celestianaslyuhabot id=8680235934 - 'Celestiana Shalava'
+WARNING:aiogram.dispatcher:Received SIGTERM signal
+INFO:aiogram.dispatcher:Polling stopped for bot @celestianaslyuhabot id=8680235934 - 'Celestiana Shalava'
+INFO:aiogram.dispatcher:Polling stopped
